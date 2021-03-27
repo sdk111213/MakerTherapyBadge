@@ -1047,9 +1047,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="32.766" y="21.3184" size="0.635" layer="25"/>
 <attribute name="VALUE" x="32.766" y="18.5534" size="0.635" layer="28" rot="MR0"/>
 </element>
-<element name="ON/OFF" library="LinnesLab-Switches" package="SWITCH.00" value="SWITCH.JS202011JXQNUPWARDS" x="47.625" y="79.7306" smashed="yes" rot="MR90">
-<attribute name="NAME" x="47.5996" y="75.6666" size="0.6096" layer="26" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="47.625" y="83.6676" size="0.6096" layer="28" ratio="20" rot="MR180" align="top-center"/>
+<element name="ON/OFF" library="LinnesLab-Switches" package="SWITCH.00" value="SWITCH.JS202011JXQNUPWARDS" x="49.5554" y="81.9658" smashed="yes" rot="MR90">
+<attribute name="NAME" x="49.53" y="77.9018" size="0.6096" layer="26" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="49.5554" y="85.9028" size="0.6096" layer="28" ratio="20" rot="MR180" align="top-center"/>
 </element>
 <element name="D4" library="LinnesLab-DiscreteSemi" package="USC" package3d_urn="urn:adsk.eagle:package:15664784/2" value="1A/23V/620mV" x="50.2666" y="72.3138" smashed="yes">
 <attribute name="NAME" x="48.9966" y="73.4138" size="0.635" layer="25"/>
@@ -1059,11 +1059,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="56.8198" y="71.6534" size="0.7112" layer="25" rot="R180"/>
 <attribute name="VALUE" x="56.8198" y="74.1934" size="0.7112" layer="27" rot="R180"/>
 </element>
-<element name="LIPO1" library="LinnesLab-Connectors" package="JST-2-SMD" value="" x="58.1152" y="80.0354" smashed="yes" rot="MR0">
-<attribute name="NAME" x="59.5122" y="81.8134" size="0.6096" layer="26" ratio="20" rot="MR0"/>
-<attribute name="PROD_ID" value="CONN-11443" x="58.1152" y="80.0354" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SF_ID" value="PRT-08612" x="58.1152" y="80.0354" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="59.7662" y="80.6704" size="0.6096" layer="28" ratio="20" rot="MR0"/>
+<element name="LIPO1" library="LinnesLab-Connectors" package="JST-2-SMD" value="" x="58.9534" y="82.4484" smashed="yes" rot="MR0">
+<attribute name="NAME" x="60.3504" y="84.2264" size="0.6096" layer="26" ratio="20" rot="MR0"/>
+<attribute name="PROD_ID" value="CONN-11443" x="58.9534" y="82.4484" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SF_ID" value="PRT-08612" x="58.9534" y="82.4484" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="60.6044" y="83.0834" size="0.6096" layer="28" ratio="20" rot="MR0"/>
 </element>
 <element name="J1" library="LinnesLab-Connectors" package="2X3-NS" package3d_urn="urn:adsk.eagle:package:18167648/2" value="AVR_SPI_PROG_3X2NS" x="10.541" y="60.4012" smashed="yes">
 <attribute name="NAME" x="9.525" y="63.373" size="0.7112" layer="25" ratio="20"/>
@@ -1497,20 +1497,21 @@ design rules under a new name.</description>
 <contactref element="LIPO1" pad="2"/>
 <contactref element="U3" pad="3"/>
 <contactref element="C10" pad="1"/>
-<wire x1="57.1152" y1="76.3354" x2="52.6202" y2="76.3354" width="0.1524" layer="16"/>
-<wire x1="52.6202" y1="76.3354" x2="49.2632" y2="79.6924" width="0.1524" layer="16"/>
-<wire x1="49.2632" y1="79.6924" x2="49.225" y2="79.7306" width="0.1524" layer="16"/>
 <wire x1="22.1996" y1="74.4084" x2="19.7643" y2="74.4084" width="0.2032" layer="16"/>
 <wire x1="19.7643" y1="74.4084" x2="19.4412" y2="74.7315" width="0.2032" layer="16"/>
 <wire x1="18.9122" y1="72.8365125" x2="18.9122" y2="71.4260875" width="0.2032" layer="16"/>
 <wire x1="18.9122" y1="71.4260875" x2="19.0658875" y2="71.2724" width="0.2032" layer="16"/>
 <wire x1="19.4412" y1="74.7315" x2="19.4412" y2="73.3655125" width="0.2032" layer="16"/>
 <wire x1="19.4412" y1="73.3655125" x2="18.9122" y2="72.8365125" width="0.2032" layer="16"/>
-<wire x1="47.6504" y1="75.9968" x2="47.6504" y2="78.4606" width="0.2032" layer="16"/>
-<wire x1="47.6504" y1="78.4606" x2="48.8822" y2="79.6924" width="0.2032" layer="16"/>
-<wire x1="48.8822" y1="79.6924" x2="49.2632" y2="79.6924" width="0.2032" layer="16"/>
 <wire x1="19.0658875" y1="71.2724" x2="42.926" y2="71.2724" width="0.2032" layer="16"/>
 <wire x1="42.926" y1="71.2724" x2="47.6504" y2="75.9968" width="0.2032" layer="16"/>
+<wire x1="47.6504" y1="75.9968" x2="49.53" y2="77.8764" width="0.1524" layer="16"/>
+<wire x1="49.53" y1="77.8764" x2="49.53" y2="81.026" width="0.1524" layer="16"/>
+<wire x1="49.53" y1="81.026" x2="50.4698" y2="81.9658" width="0.1524" layer="16"/>
+<wire x1="50.4698" y1="81.9658" x2="51.054" y2="81.9658" width="0.1524" layer="16"/>
+<wire x1="51.054" y1="81.9658" x2="51.1554" y2="81.9658" width="0.1524" layer="16"/>
+<wire x1="57.9534" y1="78.7484" x2="54.2714" y2="78.7484" width="0.1524" layer="16"/>
+<wire x1="54.2714" y1="78.7484" x2="51.054" y2="81.9658" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$7">
 <contactref element="ON/OFF" pad="1"/>
@@ -1518,8 +1519,8 @@ design rules under a new name.</description>
 <wire x1="49.1166" y1="72.3138" x2="49.1166" y2="74.7268" width="0.2032" layer="1"/>
 <wire x1="49.1166" y1="74.7268" x2="49.149" y2="74.7268" width="0.2032" layer="1"/>
 <via x="49.149" y="74.7268" extent="1-16" drill="0.35"/>
-<wire x1="49.149" y1="74.7268" x2="49.149" y2="77.2306" width="0.2032" layer="16"/>
-<wire x1="49.149" y1="77.2306" x2="49.225" y2="77.2306" width="0.2032" layer="16"/>
+<wire x1="51.1554" y1="79.4658" x2="51.1554" y2="76.7332" width="0.1524" layer="16"/>
+<wire x1="51.1554" y1="76.7332" x2="49.149" y2="74.7268" width="0.1524" layer="16"/>
 </signal>
 <signal name="LD10">
 <contactref element="J1" pad="1"/>
